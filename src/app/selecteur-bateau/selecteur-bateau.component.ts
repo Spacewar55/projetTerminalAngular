@@ -18,6 +18,7 @@ export class SelecteurBateauComponent implements OnInit {
   bateaux = new Array;
   mesureBateau:any;
 
+
   mesureGe:any;
   mesureGm:any;
   mesureGs:any;

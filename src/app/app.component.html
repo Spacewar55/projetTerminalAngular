@@ -1,1 +1,2 @@
-<app-selecteur-bateau></app-selecteur-bateau>
+<app-selecteur-bateau (donneesVoiles)="transfert($event)"></app-selecteur-bateau>
+<app-selecteur-composant [donneesVoiles]="donneesVoiles"></app-selecteur-composant>

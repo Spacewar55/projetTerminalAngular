@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetTerminalAngular';
+  donneesVoiles:any;
+
+  transfert(donnee:any){
+    this.donneesVoiles=donnee;
+  }
 }
